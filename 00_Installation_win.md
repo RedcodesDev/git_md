@@ -5,6 +5,24 @@ Git kann ganz einfach über die [.exe](https://git-scm.com/download/win) install
 winget install --id Git.Git -e --source winget
 ```
 
+Bei der Installation über die executable Datei, sind folgende Schritte im Installer notwendig:
+1. Executable ausführen
+2. Lizenz akzeptieren
+3. Installationspfad angeben
+4. Zu installierende Komponenten auswählen (Die Standard Auswahl ist meist vollkommen ausreichend)
+5. Start Menü Order festlegen
+6. Bei der Editor-Auswahl "Vim" auswählen
+7. Den Standard Branch Namen durch das untere Auswahlmenü auf "main" setzen
+8. Git erlauben durch die Befehlszeile und Drittanbietersoftware genutzt zu werden
+9. "Use bundeled OpenSSH" auswählen
+10. "Use the OpenSSL library" auswählen
+11. "Checkout Windows-style, commit Unix style line endings" auswählen
+12. "Use Windows' default console window" auswählen
+13. "Fast-forward or merge" auswählen
+14. "Git Credential Manager" auswählen
+15. "Enable file system caching" auswählen
+16. Installation abschließen
+
 # Name und Email hinterlegen 
 ```bash
 git config --global user.name "Name" 
